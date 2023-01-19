@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #c9cec9;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    margin: 0;
+    height: 100vh;
+  }
+
+  header {
+    display: flex;
+    background-color: rgb(117, 198, 117);
+    justify-content: center;
+  }
+
+  .main {
+    justify-content: center;
+  }
+
+  main  h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  main p {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #playerdisplay {
+    background-color: green;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+  }
+
+  #computerdisplay {
+    background-color: green;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .score {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #playerscore {
+    background-color: green;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #computerscore {
+    background-color: green;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .weaponbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .weaponbuttons button {
+    font-size: 20px;
+    background-color:rgb(117, 198, 117);
+  }
+
+  footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color:rgb(117, 198, 117);
+  }
+
+  footer p {
+    display: flex;
+    align-items: center;
+  }
